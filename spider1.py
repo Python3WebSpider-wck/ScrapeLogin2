@@ -1,7 +1,8 @@
 import requests
 from urllib.parse import urljoin
 
-BASE_URL = 'https://login2.scrape.cuiqingcai.com/'
+# BASE_URL = 'https://login2.scrape.cuiqingcai.com/'
+BASE_URL = 'https://login2.scrape.center/'
 LOGIN_URL = urljoin(BASE_URL, '/login')
 INDEX_URL = urljoin(BASE_URL, '/page/1')
 USERNAME = 'admin'
